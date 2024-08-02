@@ -1,0 +1,25 @@
+@baseURL=localhost:9000
+@contentType=application/json
+@accessToken=""
+
+###
+POST {{baseURL}}/login
+Content-Type: {{contentType}}
+{
+    "username":"cheng@gmail.com",
+    "password":"123456"
+}
+
+###
+POST {{baseURL}}/register
+Content-Type: {{contentType}}
+{
+    "username":"cheng@gmail.com",
+    "password":"123456"
+}
+
+###
+POST {{baseURL}}/logout
+Authorization: Bearer {{accessToken}}
+
+

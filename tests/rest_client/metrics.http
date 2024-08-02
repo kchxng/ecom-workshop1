@@ -1,0 +1,8 @@
+@baseURL=http://localhost:8081
+
+###
+GET {{baseURL}}/metrics HTTP/1.1
+
+
+###
+GET {{baseURL}}/customer/alice HTTP/1.1

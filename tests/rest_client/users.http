@@ -1,0 +1,10 @@
+@baseURL=http://localhost:8081
+@contentType=application/json
+@accessToken=""
+
+###
+GET {{baseURL}}
+
+###
+GET {{baseURL}}/users?page=1&pageSize=10
+Authorization: Bearer {{accessToken}}

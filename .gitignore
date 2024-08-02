@@ -1,0 +1,6 @@
+.env
+.DS_store
+bin
+authApp
+
+go.sum
